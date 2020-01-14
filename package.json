@@ -2,7 +2,7 @@
   "name": "church-type",
   "version": "1.0.0",
   "description": "Church Encoding In TypeScript",
-  "main": "index.js",
+  "main": "src/index.tsx",
   "scripts": {
     "test": "tsc"
   },
