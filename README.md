@@ -28,19 +28,19 @@ export type AddOne<T> = {
 
 # 加法 Add
 
-见 ./src/add.tsx
+见 [./src/add.tsx](./src/add.tsx)
 
 # 减法 Sub
 
-见 ./src/sub.tsx
+见 [./src/sub.tsx](./src/sub.tsx)
 
 # 乘法 Mul
 
-见 ./src/mul.tsx
+见 [./src/mul.tsx](./src/mul.tsx)
 
 # 求余 Remainder
 
-见 ./src/remainder.tsx
+见 [./src/remainder.tsx](./src/remainder.tsx)
 
 注: TS 的递归是有深度的，因此求余的 Church Type 比较大的时候类型会失效
 
@@ -50,7 +50,7 @@ export type AddOne<T> = {
 $ npm run tsc
 ```
 
-相关类型测试请见 ./src/*.test.tsx
+相关类型测试请见 [./src/*.test.tsx](./src/*.test.tsx)
 
 # License 
 
