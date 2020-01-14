@@ -42,7 +42,6 @@ export type NN = { pre: null | NN }
 
 见 [./src/remainder.tsx](./src/remainder.tsx)
 
-注: TS 的递归是有深度的，因此求余的 Church Type 比较大的时候类型会失效
 
 # 有效性测试
 
@@ -51,6 +50,8 @@ $ npm run tsc
 ```
 
 相关类型测试请见 [./src/*.test.tsx](./src/*.test.tsx)
+
+注: TS 的递归是有深度的，因此求余的 Church Type 比较大的时候类型会失效
 
 # License 
 
