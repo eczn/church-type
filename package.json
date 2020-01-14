@@ -1,7 +1,7 @@
 {
-  "name": "ts-church",
+  "name": "church-type",
   "version": "1.0.0",
-  "description": "",
+  "description": "Church Encoding In TypeScript",
   "main": "index.js",
   "scripts": {
     "test": "tsc"
