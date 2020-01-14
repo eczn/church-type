@@ -2,7 +2,7 @@
 
 TypeScript + Church = Church Type Num
 
-# Church 自然数 = Church 0 + Church 正整数
+# 自然数和 Church Encoding
 
 下面是 0 的定义
 
