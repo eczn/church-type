@@ -10,20 +10,20 @@ TypeScript + Church = Church Type Num
 export type Zero = { pre: null };
 ```
 
-根据 Church 的定义，可以写出下面的自然数定义：
-
-``` ts
-// 定义自然数 0 1 2 3 4 ....
-export type NN = { pre: null | NN }
-```
-
-显然，从 k 到 k + 1 的 church 递推为：
+现定义从 k 到 k + 1 的 Church 递推：
 
 ``` ts
 // 定义 k 和 k+1 的关系
 export type AddOne<T> = {
     pre: T
 }
+```
+
+显然，根据上述递推，可以得到 Church 自然数的定义：
+
+``` ts
+// 定义自然数 0 1 2 3 4 ....
+export type NN = { pre: null | NN }
 ```
 
 # 加法 Add
